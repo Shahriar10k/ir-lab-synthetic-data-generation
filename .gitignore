@@ -1,0 +1,12 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local configuration or text logs if needed
+*.log
+data/
+*.npy
+*.pt
+*.pth
+*.ckpt
+outputs/
+checkpoints/

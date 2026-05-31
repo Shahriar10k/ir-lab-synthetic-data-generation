@@ -77,7 +77,7 @@ Activities such as:
 contain significantly more samples than activities such as:
 
 * Stairs
-* Table Soccer
+* Soccer
 
 This imbalance means that a generative model may learn dominant activities better while struggling to model underrepresented activities accurately.
 
