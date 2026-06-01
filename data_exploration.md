@@ -470,3 +470,28 @@ Now they can be combined into:
 ```
 
 for training.
+
+For prototype (batch size 64)
+
+### Encoder Model
+```mermaid
+graph TD
+    A[Input <br> 64, 6, 512] --> B[Conv1D <br> 64, 16, 256]
+    B --> C[Conv1D <br> 64, 32, 128]
+    C --> D[Flatten <br> 64, 4096]
+    D --> E[Linear <br> 64, 128]
+    E --> F[mu <br> 64, 64]
+    E --> G[logvar <br> 64, 64]
+```
+
+### Decoder Model
+```mermaid
+graph TD
+    A[Sampled Latent Vector <br> 64, 64] --> B[Hidden Linear <br> 64, 128]
+    B --> C[Output Linear <br> 64, 4096]
+    C --> D[Reshape <br> 64, 32, 128]
+    D --> E[ConvTranspose1D]
+    E --> F[Intermediate Shape <br> 64, 16, 256]
+    F --> G[ConvTranspose1D]
+    G --> H[Reconstructed Output <br> 64, 6, 512]
+```
