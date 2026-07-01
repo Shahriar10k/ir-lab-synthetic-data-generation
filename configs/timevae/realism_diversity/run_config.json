@@ -1,0 +1,19 @@
+{
+    "project_root": "/home/iailab42/khans1/projects/ir",
+    "candidate": "timevae",
+    "data_dir": "/home/iailab42/khans1/projects/ir/data",
+    "synthetic_dir": "/home/iailab42/khans1/projects/ir/data/synthetic/timevae",
+    "results_dir": "/home/iailab42/khans1/projects/ir/results/timevae/realism_diversity",
+    "figures_dir": "/home/iailab42/khans1/projects/ir/figures/timevae/realism_diversity",
+    "models_dir": "/home/iailab42/khans1/projects/ir/models/timevae",
+    "config_dir": "/home/iailab42/khans1/projects/ir/configs/timevae/realism_diversity",
+    "log_dir": "/home/iailab42/khans1/projects/ir/logs/timevae",
+    "real_x_path": "/home/iailab42/khans1/projects/ir/data/all_X.npy",
+    "real_y_path": "/home/iailab42/khans1/projects/ir/data/all_y.npy",
+    "real_subject_path": "/home/iailab42/khans1/projects/ir/data/all_subject.npy",
+    "real_metadata_path": "/home/iailab42/khans1/projects/ir/data/all_metadata.csv",
+    "synthetic_x_path": "/home/iailab42/khans1/projects/ir/data/synthetic/timevae/all_X_synthetic.npy",
+    "synthetic_y_path": "/home/iailab42/khans1/projects/ir/data/synthetic/timevae/all_y_synthetic.npy",
+    "synthetic_subject_path": "/home/iailab42/khans1/projects/ir/data/synthetic/timevae/all_subject_synthetic.npy",
+    "synthetic_metadata_path": "/home/iailab42/khans1/projects/ir/data/synthetic/timevae/all_metadata_synthetic.csv"
+}

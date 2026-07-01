@@ -1,0 +1,2 @@
+candidate,summary,abs_mean_diff_lower_is_better,abs_std_diff_lower_is_better,histogram_overlap_0_to_1_higher_is_better,fft_logmag_mae_lower_is_better
+prior,average_across_all_activity_signal_rows,0.09673826182377827,0.623598522952913,0.3005854812775151,0.620347723752881

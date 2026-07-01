@@ -1,0 +1,5 @@
+candidate,split,num_windows,num_subjects,subjects,activity_1_count,activity_2_count,activity_3_count,activity_4_count,activity_5_count,activity_6_count,activity_7_count,activity_8_count
+prior,real_train,30748,10,"S1,S2,S3,S4,S5,S6,S9,S11,S12,S13",3029,2138,1498,2294,4579,8790,2900,5520
+prior,real_val,6096,2,"S14,S15",604,432,335,448,865,1581,632,1199
+prior,real_test,10063,3,"S7,S8,S10",901,635,444,697,1363,3147,1128,1748
+prior,synthetic_all,8000,10,"SYN_001,SYN_002,SYN_003,SYN_004,SYN_005,SYN_006,SYN_007,SYN_008,SYN_009,SYN_010",1000,1000,1000,1000,1000,1000,1000,1000
